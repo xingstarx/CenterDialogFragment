@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_shape_radius"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:text="你确定要删除这些笔记吗?" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#EEEEEE"
+        android:layout_height="1px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/okButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="取消" />
+
+        <View
+            android:layout_width="1px"
+            android:background="#EEEEEE"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:text="确定"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
